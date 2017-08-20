@@ -61,3 +61,10 @@
     height: auto;
     margin-top: 8%;
 }
+#buildings .styleText1 {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    margin-bottom: 74%;
+}
