@@ -1,0 +1,55 @@
+.theColumn{
+	width: 74%;
+}
+#TESTIMONIALS .wrapper {
+    width: 100%;
+    margin-left: 36%;
+    }
+    #about .adjustWidth {
+    width: 53%;
+}
+#Blog .styleWrappingBox {
+    height: 485px;
+    border: 1px solid #eee;
+    width: 90%;
+    }
+    #Blog .styleWrappingBox2 {
+    height: 548px;
+    border: 1px solid #eee;
+    width: 100%;
+}
+#Blog .styleWrappingBox {
+    height: 485px;
+    border: 1px solid #eee;
+    width: 90%;
+}
+#Blog .margin101{
+	margin-top: -4%;
+}
+#Blog .styleWrappingBox3 {
+    height: 439px;
+    border: 1px solid #eee;
+    width: 90%;
+}
+#Blog .marginTop2 {
+    margin-top: 3%;
+}
+#Blog .styleWrappingBox4 {
+    height: 528px;
+    border: 1px solid #eee;
+    width: 90%;
+}
+#Blog .marginTop {
+    margin-top: 0%;
+}
+#Blog .marginTop1 {
+    margin-top: 2%;
+}
+#Blog {
+    height: 1885px;
+}
+#Blog .styleWrappingBox5 {
+    height: 450px;
+    border: 1px solid #eee;
+    width: 100%;
+}
