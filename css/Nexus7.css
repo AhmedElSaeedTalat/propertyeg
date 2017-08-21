@@ -53,13 +53,13 @@
     width: 90%;
     }
     #Blog .margin101{
-        margin-top: -8%;
+        margin-top: 5%;
 }
 #Blog .marginTop {
     margin-top: -13%;
 }
 #Blog .marginTop1 {
-    margin-top: 2%;
+    margin-top: -4%;
 }
 .boxAnimation6{
   animation: boxAnimation6 3s;
@@ -96,7 +96,7 @@
     width: 90%;
     }
     #Blog .margin101 {
-    margin-top: 3%;
+    margin-top: 5%;
 }
 #Blog .styleWrappingBox3 {
     height: 577px;
@@ -109,10 +109,48 @@
     width: 90%;
 }
 #Blog .marginTop {
-    margin-top: -1%;
+    margin-top: 0%;
 }
 #Blog .styleWrappingBox5 {
     height: 600px;
     border: 1px solid #eee;
     width: 100%;
+}
+#headOfPage .headingStyle {
+    font-size: 37px;
+    line-height: 72px;
+    font-weight: bold;
+    color: #333333;
+    text-transform: uppercase;
+    position: absolute;
+    left: 29%;
+  text-align: center;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #ffa400;
+    width: 130px;
+    height: 36px;
+}
+.btn-success {
+    color: #fff;
+    background-color: black;
+    width: 130px;
+    height: 36px;
+}
+.positionColumn2 {
+    position: absolute;
+    top: 57%;
+    left: 49%;
+    opacity: 0;
+}
+
+
+#Blog .marginTop2 {
+    margin-top: 5%;
+}
+#Blog .styleWrappingBox5 {
+    height: 600px;
+    border: 1px solid #eee;
+    width: 90%;
 }

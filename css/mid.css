@@ -33,3 +33,12 @@
     margin-top: 10%;
     margin-left: 4%;
 }
+#headOfPage .headingStyle {
+    font-size: 27px;
+    font-weight: bold;
+    color: #333333;
+    text-transform: uppercase;
+    position: absolute;
+    left: 25%;
+    top: 36%;
+}

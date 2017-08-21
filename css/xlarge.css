@@ -1,0 +1,22 @@
+/*#headOfPage .headingStyle {
+    font-size: 62px;
+    line-height: 72px;
+    font-weight: bold;
+    color: #333333;
+    text-transform: uppercase;
+    position: absolute;
+    left: 25%;
+    top: 36%;
+}
+ @keyframes headingAnimation{
+
+ 	0%{
+ 		opacity: 0;
+ 		top:25%;
+ 	}
+ 	100%{
+ 		opacity: 1;
+		top: 36%;
+ 	}
+
+}*/

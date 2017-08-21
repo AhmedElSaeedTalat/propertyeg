@@ -1,0 +1,160 @@
+
+#Blog .styleWrappingBox {
+    border: 1px solid #eee;
+    width: 90%;
+    margin-top: 4%;
+}
+@keyframes boxAnimation2{
+    0%{
+        opacity: 0;
+        margin-top: 20%;
+    }
+
+    20%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        margin-top:4%;
+    }
+}
+#Blog .styleWrappingBox2 {
+
+    border: 1px solid #eee;
+    width: 90%;
+    margin-top: 5%;
+
+}
+#Blog .styleWrappingBox3 {
+
+    border: 1px solid #eee;
+    width: 90%;
+    margin-top: 10%;
+    height: auto;
+}
+#Blog .marginTop {
+    margin-top: -5%;
+}
+#Blog .styleWrappingBox4 {
+
+    border: 1px solid #eee;
+    width: 90%;
+    margin-top: 10%;
+}
+.theMargin{
+    margin-top: -3%;
+}
+#Blog .marginTop2 {
+    margin-top: -1%;
+}
+#Blog .margin101 {
+    margin-top: -5%;
+}
+#Blog .margin103 {
+    margin-top: -3%;
+}
+.boxAnimation5{
+    animation: boxAnimation5 3s;
+    animation-fill-mode: forwards;
+
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+    transform: translateZ(0);
+}
+
+#Blog .marginTop1 {
+    margin-top: 3%;
+}
+
+/*#about .adjustWidth {
+    width: 100%;
+}*/
+#buildings {
+    background-image: url(../images/buildings.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    margin-top: 8%;
+}
+#buildings .styleText1 {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    margin-bottom: 74%;
+}
+#headOfPage .margin {
+    margin-top: 20%;
+}
+#headOfPage .headingStyle {
+    font-size: 43px;
+    line-height: 72px;
+    font-weight: bold;
+    color: #333333;
+    text-transform: uppercase;
+    position: absolute;
+    left: 33%;
+}
+#Blog .styleWrappingBox5 {
+    height: auto;
+    border: 1px solid #eee;
+    width: 90%;
+}
+#about .adjustWidth {
+    width: 100%;
+}
+#Blog .margin103 {
+    margin-top: 0%;
+}
+#Blog .margin101 {
+    margin-top: 1%;
+}
+#Blog .marginTop2 {
+    margin-top: -4%;
+}
+#Blog .marginTop {
+    margin-top: 1%;
+}
+#Blog .marginTop1 {
+    margin-top: -3%;
+}
+#footer .StyleTextFooterList {
+    font-size: 14px;
+    line-height: 32px;
+    color: #333333;
+    margin-left: -8%;
+    margin-top: 15%;
+}
+.justText {
+    margin-left: -3%;
+}
+#Form {
+    background-image: url(../images/contact-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+}
+#headOfPage .headingStyle {
+    font-size: 34px;
+    line-height: 72px;
+    font-weight: bold;
+    color: #333333;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    top: 33%;
+}
+@keyframes headingAnimation{
+
+    0%{
+        opacity: 0;
+        top:25%;
+    }
+    100%{
+        opacity: 1;
+        top: 33%;
+    }
+
+}

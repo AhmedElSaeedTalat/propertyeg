@@ -1,59 +1,74 @@
-#Blog {
-    height: 4251px;
-}
+
 #Blog .styleWrappingBox {
-    height: 559px;
     border: 1px solid #eee;
     width: 90%;
-    margin-top: 10%;
-    margin-left: 4%;
+    margin-top: 4%;
+}
+@keyframes boxAnimation2{
+    0%{
+        opacity: 0;
+        margin-top: 20%;
+    }
+
+    20%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        margin-top:4%;
+    }
 }
 #Blog .styleWrappingBox2 {
-    height: 709px;
+
     border: 1px solid #eee;
     width: 90%;
     margin-top: 5%;
-    margin-left: 4%;
+
 }
 #Blog .styleWrappingBox3 {
-    height: 562px;
+
     border: 1px solid #eee;
     width: 90%;
     margin-top: 10%;
-    margin-left: 4%;
+    height: auto;
 }
 #Blog .marginTop {
-    margin-top: 9%;
+    margin-top: -5%;
 }
 #Blog .styleWrappingBox4 {
-    height: 683px;
+
     border: 1px solid #eee;
     width: 90%;
     margin-top: 10%;
-    margin-left: 4%;
 }
-#Blog .styleWrappingBox5 {
-    height: 561px;
-    border: 1px solid #eee;
-    width: 90%;
-    margin-top: 27%;
-    margin-left: 4%;
+.theMargin{
+    margin-top: -3%;
 }
 #Blog .marginTop2 {
-    margin-top: -5%;
+    margin-top: -1%;
 }
 #Blog .margin101 {
-    margin-top: -4%;
+    margin-top: -5%;
 }
 #Blog .margin103 {
     margin-top: -3%;
 }
-.theColumn {
-	width:0%;
+.boxAnimation5{
+    animation: boxAnimation5 3s;
+    animation-fill-mode: forwards;
+
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+    transform: translateZ(0);
 }
-#about .adjustWidth {
+
+#Blog .marginTop1 {
+    margin-top: 3%;
+}
+
+/*#about .adjustWidth {
     width: 100%;
-}
+}*/
 #buildings {
     background-image: url(../images/buildings.jpg);
     background-size: cover;
@@ -69,7 +84,7 @@
     margin-bottom: 74%;
 }
 #headOfPage .margin {
-    margin-top: 36%;
+    margin-top: 20%;
 }
 #headOfPage .headingStyle {
     font-size: 43px;
@@ -78,5 +93,21 @@
     color: #333333;
     text-transform: uppercase;
     position: absolute;
-    left: 29%;
+    left: 33%;
 }
+#Blog .styleWrappingBox5 {
+    height: auto;
+    border: 1px solid #eee;
+    width: 90%;
+}
+@keyframes buttonAnimation2{
+    0%{
+        opacity: 0;
+        top: 70%;
+    }
+    100%{
+        opacity: 1;
+        top:57%;
+    }
+
+ }

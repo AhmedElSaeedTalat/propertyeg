@@ -18,9 +18,11 @@ body{
 		background-size:cover;
 		background-position: center;
 		background-attachment: fixed;
-		height: 670px;
+		
 
-
+}
+.marginBottom{
+	margin-bottom: 25%;
 }
 		/*menu*/
 #headOfPage .menu{
@@ -69,7 +71,7 @@ body{
 }
 #list{
 	color: #ffa400;
-	font-size: 17px;
+	font-size: 23px;
 	cursor: pointer;
 	line-height: 50px;
 }
@@ -115,25 +117,29 @@ a.MenueXsTextStyle{
 	font-weight: bold;
 	color: #333333;
 	text-transform:uppercase;
-	
+	position: absolute;
+	left: 29%;
+	top: 39%;
+
  }
  .headingAnimation{
- 	animation: headingAnimation 1s;
-	animation-fill-mode: forwards;
-	 -webkit-backface-visibility: hidden;
-    -webkit-transform: translateZ(0) scale(1.0, 1.0);
-    transform: translateZ(0);
+ 	animation: headingAnimation 5s;
+	
+
+ }
+ .adjustHeight{
+ 	    height: 100px;
 
  }
  @keyframes headingAnimation{
 
  	0%{
  		opacity: 0;
- 		margin-top:-2%;
+ 		top:25%;
  	}
  	100%{
  		opacity: 1;
-		margin-top: 0;
+		top: 39%;
  	}
 
 }
@@ -147,7 +153,7 @@ a.MenueXsTextStyle{
 @keyframes textStyleAnimation{
 	0%{
  		opacity: 0;
- 		margin-top:-5%;
+ 		margin-top:10%;
  	}
  	100%{
  		opacity: 1;
@@ -156,17 +162,47 @@ a.MenueXsTextStyle{
 }
  		/*buttons*/
  
-  #headOfPage .marginButtons{
-  	margin-top: 3%;
-  }
- #headOfPage .button1{
- 	background-color: #ffa400;
+  #headOfPage .marginButtons {
+    margin-top: 3%;
+    display: inline-block;
+}
+ #headOfPage .button1 {
+    background-color: #ffa400;
+    border-radius: 4px;
+    height: 41px;
+    opacity: 0;
+    width: 216px;
+    text-align: center;
+    /* display: inline-block; */
+    transition-duration: 1s;
+    /* margin-right: 11px; */
+    /* bottom: 27%; */
+    /* right: 50%; */
+    right: 50%;
+    position: absolute;
+	margin-bottom: 20%;
+}
+.btn-warning {
+    color: #fff;
+    background-color:#ffa400;
+    width: 148px;
+    height: 36px;
+}
+.btn-success {
+    color: #fff;
+    background-color:black;
+    width: 148px;
+    height: 36px;
+
+}
+.btn-success:hover {
+  cursor: pointer;
+ 	background-color: #fec300;
  	border-radius: 4px;
  	height: 36px;
- 	opacity: 0;
- 	transition-duration: 1s;
- }
- #headOfPage .button1:hover{
+
+}
+ .btn-warning:hover{
  	cursor: pointer;
  	background-color: #fec300;
  	border-radius: 4px;
@@ -174,7 +210,7 @@ a.MenueXsTextStyle{
  }
  .buttonAnimation1{
  	animation: buttonAnimation1 1s;
-	animation-delay: 1s;
+	
 	animation-fill-mode: forwards;
  	transition-duration: 2s;
  	 -webkit-backface-visibility: hidden;
@@ -185,21 +221,26 @@ a.MenueXsTextStyle{
  @keyframes buttonAnimation1{
  	0%{
 		opacity: 0;
-		margin-top: 10%;
+		top: 70%;
  	}
  	100%{
  		opacity: 1;
- 		margin-top: 0%;
+ 		top:57%;
  	}
 
  }
-  #headOfPage .button2{
- 	background-color: black;
- 	border-radius: 4px;
- 	height: 36px;
- 	opacity: 0;
- 	transition-duration:1s; 
- }
+#headOfPage .button2 {
+    background-color: black;
+    border-radius: 4px;
+    height: 41px;
+    width: 216px;
+    opacity: 0;
+    transition-duration: 1s;
+    margin-bottom: 20%;
+    /* display: inline-block; */
+    position: absolute;
+    left: 51%;
+}
   #headOfPage .button2:hover {
   	cursor: pointer;
  	background-color: #ffa400;
@@ -216,28 +257,36 @@ a.MenueXsTextStyle{
 }
 .buttonAnimation2{
  	animation: buttonAnimation2 1s;
- 	animation-delay: 2s;
+	animation-delay: 1s;
 	animation-fill-mode: forwards;
-	 -webkit-backface-visibility: hidden;
-    -webkit-transform: translateZ(0) scale(1.0, 1.0);
-    transform: translateZ(0);
-
+	
  }
- @keyframes buttonAnimation2{
+@keyframes buttonAnimation2{
  	0%{
 		opacity: 0;
-		margin-top: 10%;
+		top: 70%;
  	}
  	100%{
  		opacity: 1;
- 		margin-top: 0%;
+ 		top:57%;
  	}
 
  }
-
-
-
- 										/*About Section*/
+.position{
+	position: relative;
+}
+.positionColumn{
+	position: absolute;
+    top: 57%;
+    right: 50%;
+    opacity: 0;
+}
+ 	.positionColumn2{
+	position: absolute;
+    top: 57%;
+    left: 50%;
+    opacity: 0;
+}									/*About Section*/
  
  #about .margin{
 		margin-left: 5%;
@@ -270,8 +319,82 @@ a.MenueXsTextStyle{
 #about .adjustWidth{
 	width: 52%;
 }
+#about .margin-Left-Blog{
+	margin-left: 8%;
+}
 
 										/*TESTIMONIALS Section*/
+#TESTIMONIALS{
+	    margin-top: 7%;
+}							
+.carousel-control.left {
+   	 	background-image: none;
+    }	
+    .carousel-control.right {
+   		 background-image: none;
+    }		
+    .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 323px;	
+}
+
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: 68%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    top: 108%;
+    list-style: none;
+}
+
+element.style {
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000\9;
+    background-color: #868686;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #323232;
+}
+
+
+
+
 
 #TESTIMONIALS .wrappingDiv{
 	width: 100%;
@@ -312,68 +435,20 @@ a.MenueXsTextStyle{
 	   line-height: 32px;
 	   margin-top: 2%;
 }
-.first {
-	display: none;
-/*	opacity: 0;
-*/}
-.second{
-	display: none;
-/*	opacity: 0;
-*/}
-.third{
-	display: none;
-}
-.display{
-	display: block;
-	animation: addAnimation 1s;
-	animation-delay: 3s;
-	animation-fill-mode: forwards;
-	-webkit-backface-visibility: hidden;
-    -webkit-transform: translateZ(0) scale(1.0, 1.0);
-    transform: translateZ(0);
-}
-@keyframes addAnimation{
-	0%{
-	
-		opacity:1;
-	}
-	100%{
-		margin-left:40%;
-		/*visibility: hidden;*/
-		opacity: 0; 
-	}
-}
-.dots{
-	width: 100%;
-}
-#TESTIMONIALS .dots{
-    border-radius: 100%;
-    height: 12px;
-    width: 12px;
-    background: #868686;
-    display: inline-block;
-    margin-left: 22px;
-    cursor: pointer;
-}
-#TESTIMONIALS .wrapper{
-	width: 100%;
-	margin:0 auto;
-}
-#TESTIMONIALS .marginDots{
-	    margin-top: 2%;
-}
+
 
 								/*buildingsSection*/
 #buildings{
 	background-image: url("../images/buildings.jpg");
 	background-size: cover;
 	background-attachment: fixed;
-    height: 350px;
+    height: auto;
     margin-top: 8%;
 }
 #buildings .wrapper{
 	width: 100%;
 	margin-top: 150px;
+	margin-bottom: 150px;
 }
 #buildings .styleText{
 	font-size: 32px;
@@ -393,9 +468,7 @@ a.MenueXsTextStyle{
 
 
 												/*Blog*/
-#Blog{
-	height: 1540px;
-}												
+											
 								
 #Blog .margin{
 	margin-top: 15%;
@@ -417,29 +490,30 @@ a.MenueXsTextStyle{
 	color: #323232;
 }
 #Blog .styleWrappingBox{
-	height: 392px;
 	border:1px solid #eee;
     width: 90%;
 }
 #Blog .styleWrappingBox2{
-	height: 480px;
 	border:1px solid #eee;
     width: 100%;
+    
 }
 #Blog .styleWrappingBox3{
-	height: 414px;
 	border:1px solid #eee;
     width: 90%;
 }
 #Blog .styleWrappingBox4{
-	height: 490px;
 	border:1px solid #eee;
     width: 90%;
+    margin-bottom: 10%;
 }
 #Blog .styleWrappingBox5{
-	height: 420px;
 	border:1px solid #eee;
     width: 100%;
+    margin-bottom: 10%;
+}
+.theMargin{
+
 }
 #Blog .image{
     width: 90%;
@@ -460,11 +534,12 @@ a.MenueXsTextStyle{
 	color: #333333;
 	margin-left: 6%;
 }
-#Blog .styleText3{
-	font-size: 14px;
-	line-height: 28px;
-	color: #333333;
-	margin-left: 6%;
+#Blog .styleText3 {
+    font-size: 14px;
+    line-height: 28px;
+    color: #333333;
+    margin-left: 6%;
+    margin-bottom: 5%;
 }
 #Blog .marginTop1{
 	    margin-top: -12%;
@@ -486,11 +561,12 @@ a.MenueXsTextStyle{
 	}
 	100%{
 		opacity: 1;
-		margin-top: 0%;
+		margin-top: 4%;
 	}
 }
 .boxAnimation2{
 	animation: boxAnimation2 3s;
+
 	-webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0) scale(1.0, 1.0);
     transform: translateZ(0);
@@ -511,6 +587,7 @@ a.MenueXsTextStyle{
 }
 .boxAnimation3{
 	animation: boxAnimation3 3s;
+
 	-webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0) scale(1.0, 1.0);
     transform: translateZ(0);
@@ -531,6 +608,7 @@ a.MenueXsTextStyle{
 }
 .boxAnimation4{
 	animation: boxAnimation4 3s;
+
 	-webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0) scale(1.0, 1.0);
     transform: translateZ(0);
@@ -551,6 +629,7 @@ a.MenueXsTextStyle{
 }
 .boxAnimation5{
 	animation: boxAnimation5 3s;
+
 	-webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0) scale(1.0, 1.0);
     transform: translateZ(0);
@@ -899,14 +978,14 @@ font-size: 26px;
 
 
 
-#Blog .marginTop{
-	margin-top: -38%;
+#Blog .marginTop {
+    margin-top: -38%;
 }
-#Blog .marginTop1{
-	margin-top: -21%;
+#Blog .marginTop1 {
+    margin-top: -31%;
 }
 #Blog .marginTop2{
-	margin-top: 4%;
+	margin-top: 3%;
 }
 #Blog .margin101{
 

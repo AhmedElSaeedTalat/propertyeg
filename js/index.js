@@ -8,8 +8,8 @@ $(document).scroll(function(){
 $(document).ready(function(){
 	$(".headingStyle").addClass("headingAnimation");
 	$(".textStyle").addClass("textStyleAnimation");
-	$(".button1").addClass("buttonAnimation1");
-	$(".button2").addClass("buttonAnimation2");
+	$(".positionColumn").addClass("buttonAnimation1");
+	$(".positionColumn2").addClass("buttonAnimation2");
 });
 $("#list").click(function(){
 	$(".xsMenu").slideToggle();
