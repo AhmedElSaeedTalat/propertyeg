@@ -14,7 +14,7 @@ $(document).ready(function(){
 $("#list").click(function(){
 	$(".xsMenu").slideToggle();
 });
-$("document").ready(function(){
+$(document).ready(function(){
 	let x = $("#headOfPage");
 	let refered = this;
 	let y = scrollMonitor.create(x);
@@ -32,7 +32,7 @@ $("document").ready(function(){
  			$("#aboutSection").removeClass("specialStyle");
 		});
 	});
-$("document").ready(function(){
+$(document).ready(function(){
 	let x = $("#about");
 	let refered = this;
 	let y = scrollMonitor.create(x);
@@ -52,7 +52,7 @@ $("document").ready(function(){
 	});
 
 
-$("document").ready(function(){
+$(document).ready(function(){
 	let x = $("#TESTIMONIALS");
 	let refered = this;
 
@@ -60,6 +60,7 @@ $("document").ready(function(){
 
 	y.enterViewport(
 		()=>{
+			$("#1").removeClass("specialStyle");
 			$("#2").removeClass("specialStyle");
  			$("#3").addClass("specialStyle");
 			$("#5").removeClass("specialStyle");
@@ -75,7 +76,7 @@ $("document").ready(function(){
 		);
 	});
 		
-$("document").ready(function(){
+$(document).ready(function(){
 	let x = $("#Blog");
 	let refered = this;
 
@@ -98,7 +99,7 @@ $("document").ready(function(){
 
 		);
 	});
-		$("document").ready(function(){
+		$(document).ready(function(){
 	let x = $("#Form");
 
 	let y = scrollMonitor.create(x);
@@ -121,47 +122,7 @@ $("document").ready(function(){
 		);
 	});
 		
-					// Slider
-	let index = 0;
-	var first = $(".first");
-  		var second = $(".second");
-  		var third = $(".third");
-  		var array  = [first,second,third];
-  $(document).ready(function(){
-  		
-  		array[index].addClass("display");
-  		checkClasses();
-  		setInterval(function (){showBlog()},4500);
-  });
-
-
-function showBlog(){
-	
-  
-	index += 1;
-	hideBlog();
-	console.log(index);
-	showNext();
-	checkClasses();
-}
-function showNext()
-{
-	if(index >= array.length){
-		index = 0;
-		array[index].addClass("display");
-	}
-	else{
-		array[index].addClass("display");
-		
-	}
-
-}
-function hideBlog(){
-	if(index > 0){
-		let previousIndex = index-1;
-		array[previousIndex].removeClass("display");
-}
-}
+				
 $("#first").click(function(){
 	index = 0;
 	array[index].addClass("display");
@@ -208,7 +169,6 @@ function checkClasses(){
 		$("#first").css({"background":"#868686"});
 
 	}
-	console.log(first.hasClass("display"));
 }
 
 $(document).ready(function(){
