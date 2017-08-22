@@ -1,3 +1,11 @@
+#headOfPage{
+
+        height: auto;
+
+}
+#about .addPadding {
+    padding: 0 10%;
+}
 #headOfPage .margin{
 	margin-top: 60%;
 }
@@ -147,4 +155,19 @@
     border: 1px solid #eee;
     width: 90%;
     margin-bottom: 10%;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 385px;
+}
+#TESTIMONIALS .textStyleTestimonialsBlock {
+    text-align: center;
+    color: #323232;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 42px;
+    letter-spacing: 1px;
+    margin-top: 14%;
 }
